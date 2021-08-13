@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import { Router, Link } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>React Search Bar Tutorial</h1>
+      <p>This is an app built to practice creating a functional search bar in React. This was built following the Dev.to article, '<Link to='https://dev.to/franciscomendes10866/how-to-create-a-search-bar-in-react-58nj'>How to Create a Search Bar in React</Link>'</p>
     </div>
   );
 }
